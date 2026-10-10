@@ -1,0 +1,29 @@
+# ThorVG Playground
+
+> An interactive browser playground for learning and experimenting with the ThorVG WebCanvas API.
+
+ThorVG Playground provides runnable TypeScript examples with editable source code and a live canvas preview. Examples demonstrate vector drawing, animation, text, images, Lottie, video, scene composition, masking, blending, effects, and other WebCanvas features. Examples can run with the Software, WebGL, or WebGPU renderer by using the `renderer=sw`, `renderer=gl`, or `renderer=wg` query parameter.
+
+## Main Pages
+
+- [Playground](https://thorvg-playground.vercel.app/): Browse all available WebCanvas examples by category.
+- [Basic Shapes](https://thorvg-playground.vercel.app/showcase/basic-shapes): Draw simple shapes with WebCanvas.
+- [Lottie Animation](https://thorvg-playground.vercel.app/showcase/lottie-animation): Load and play a Lottie animation with playback controls.
+- [Text Layout](https://thorvg-playground.vercel.app/showcase/text-layout): Explore text alignment and layout within a bounding box.
+- [Video](https://thorvg-playground.vercel.app/showcase/video): Load and play video content with keyboard playback controls.
+
+Each showcase page contains editable example code and a live preview. A renderer can be selected through the URL, for example: `https://thorvg-playground.vercel.app/showcase/basic-shapes?renderer=wg`.
+
+## Example Categories
+
+- Basic: shapes, paths, fills, strokes, gradients, transforms, images, and opacity.
+- Advanced: accessors, blending, clipping, masking, effects, intersections, scene composition, and error handling.
+- Text: fonts, layout, line wrapping, and text animation.
+- Media: SVG and raster images, Lottie animations, audio, and video.
+
+## Project Resources
+
+- [ThorVG Web repository](https://github.com/thorvg/thorvg.web): Source code for ThorVG's web packages and applications.
+- [Playground source](https://github.com/thorvg/thorvg.web/tree/main/apps/playground): Source code and example definitions for this playground.
+- [WebCanvas package](https://github.com/thorvg/thorvg.web/tree/main/packages/webcanvas): WebCanvas implementation and API documentation.
+- [ThorVG website](https://www.thorvg.org/): Official ThorVG project website and documentation.
